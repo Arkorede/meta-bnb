@@ -1,0 +1,94 @@
+/***************************/
+/* BELOW 1400px (Smaller desktops) */
+/***************************/
+
+@media screen and (max-width: 87.5em) {
+  /* NONE */
+}
+
+/***************************/
+/* BELOW 1200px (Landscape Tablets) */
+/***************************/
+
+@media screen and (max-width: 75em) {
+  .first-logo {
+    height: 2.5rem;
+  }
+
+  .second-logo {
+    height: 2.3rem;
+  }
+
+  .main-nav-link:link,
+  .main-nav-link:visited {
+    font-size: 1.8rem;
+  }
+
+  .btn-cta {
+    font-size: 1.5rem;
+    padding: 1rem 2.8rem;
+    margin-left: 10rem;
+  }
+}
+
+/***************************/
+/* BELOW 992px (Tablets) */
+/***************************/
+@media screen and (max-width: 62em) {
+  /* NOBILE NAVIGATION */
+  .btn-mobile-nav {
+    display: block;
+    z-index: 9999;
+  }
+
+  .main-nav {
+    background-color: rgb(255, 255, 255, 0.6);
+    backdrop-filter: blur(10px);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    transform: translateX(100%);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.5s ease-in;
+
+    /* Hide navigation */
+    opacity: 0;
+    pointer-events: none;
+    visibility: none;
+  }
+
+  .nav-open .main-nav {
+    opacity: 1;
+    pointer-events: auto;
+    visibility: visible;
+    transform: translateX(0);
+  }
+
+  .nav-open .btn__close {
+    display: block;
+  }
+
+  .nav-open .btn__menu {
+    display: none;
+  }
+
+  .main-nav-list {
+    flex-direction: column;
+    gap: 4.8rem;
+  }
+
+  .main-nav-link:link,
+  .main-nav-link:visited {
+    font-size: 3rem;
+  }
+
+  .btn-cta {
+    font-size: 2.8rem;
+    margin: 0;
+  }
+}
