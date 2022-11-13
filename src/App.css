@@ -11,12 +11,12 @@ html {
 
 .App {
   font-family: "Red Rose", cursive;
+  margin: 0 auto;
 }
 
 .header {
   display: flex;
   justify-content: space-between;
-  /* gap: 8rem; */
   align-items: center;
   background-color: #fff;
 

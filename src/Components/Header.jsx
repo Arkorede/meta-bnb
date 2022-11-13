@@ -9,10 +9,10 @@ function Header() {
 
   return (
     <div className="header" onClick={handleClick}>
-      <a href="https://github.com/Arkorede">
+      <div className="img-wrapper">
         <img src={firstLogo} alt="A small house" className="first-logo" />
         <img src={secondLogo} alt="Metabnb" className="second-logo" />
-      </a>
+      </div>
 
       <nav class="main-nav">
         <ul class="main-nav-list">
