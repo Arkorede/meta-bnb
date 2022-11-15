@@ -19,10 +19,11 @@ function Hero() {
           <div className="hero-location d-flex" style={{ position: "static" }}>
             <input
               type="text"
-              className="form-control border border-0"
+              className="form-control"
               placeholder="Search for Location"
               aria-label="Sizing example input"
               aria-describedby="inputGroup-sizing-lg"
+              style={{ borderRadius: 0 }}
             />
             <span
               className="input-group-text text-white fs-3 px-5 py-4 btn-search"
