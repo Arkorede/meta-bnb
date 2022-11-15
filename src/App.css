@@ -125,3 +125,14 @@ html {
   background: linear-gradient(90deg, #a02279 11.45%, #a02279 11.45%);
   padding: 1.5rem 8rem;
 }
+
+/* FEATURED SECTION */
+.section-featured {
+  padding: 1rem 3rem;
+  background: linear-gradient(90deg, #a02279 11.45%, #a02279 11.45%);
+}
+
+.logos {
+  display: flex;
+  justify-content: space-around;
+}

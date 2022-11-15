@@ -43,6 +43,10 @@
   .hero-description {
     font-size: 2rem;
   }
+
+  .logos img {
+    height: 4rem;
+  }
 }
 
 /***************************/
@@ -119,6 +123,10 @@
     grid-template-columns: 1fr;
     row-gap: 6rem;
   }
+
+  .logos img {
+    height: 3rem;
+  }
 }
 
 /***************************/
@@ -139,5 +147,9 @@
 
   .hero-description {
     font-size: 1.4rem;
+  }
+
+  .logos img {
+    height: 1.8rem;
   }
 }
