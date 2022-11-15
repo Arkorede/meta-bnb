@@ -99,6 +99,8 @@ html {
   display: grid;
   grid-template-columns: 1fr 1fr;
   column-gap: 6rem;
+  padding: 5rem;
+  margin-top: 7rem;
 }
 
 .hero-heading {

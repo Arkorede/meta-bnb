@@ -4,11 +4,8 @@ import houses from "./houses.png";
 function Hero() {
   return (
     <div>
-      <div
-        className="section-hero"
-        style={{ padding: "5rem", marginTop: "7rem" }}
-      >
-        <div className="hero" style={{ marginRight: "3rem" }}>
+      <div className="section-hero">
+        <div className="hero">
           <div className="hero-heading">
             Rent a <span className="hero-highlight">Place</span> away from
             <span className="hero-highlight"> Home</span> in the
@@ -19,7 +16,7 @@ function Hero() {
             metaverse, get a chance to turn your imagination to reality at your
             comfort zone
           </p>
-          <div className="hero-location input-group input-group-lg">
+          <div className="hero-location d-flex" style={{ position: "static" }}>
             <input
               type="text"
               className="form-control"
