@@ -8,7 +8,7 @@ function Header() {
   };
 
   return (
-    <div className="header" onClick={handleClick}>
+    <div className="header sticky-top" onClick={handleClick}>
       <div className="img-wrapper">
         <img src={firstLogo} alt="A small house" className="first-logo" />
         <img src={secondLogo} alt="Metabnb" className="second-logo" />
