@@ -19,7 +19,7 @@ function Hero() {
           <div className="hero-location d-flex" style={{ position: "static" }}>
             <input
               type="text"
-              className="form-control"
+              className="form-control border border-0"
               placeholder="Search for Location"
               aria-label="Sizing example input"
               aria-describedby="inputGroup-sizing-lg"
