@@ -298,3 +298,61 @@ html {
 .footer-link:active {
   color: #555;
 }
+
+.modal_btn_close {
+  height: 2.4rem;
+  width: 2.4rem;
+  margin-right: 2rem;
+}
+
+.btn-modal {
+  background: none;
+  border: none;
+}
+
+.modal-header {
+  height: 4rem;
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.modal-title {
+  font-size: 1.8rem;
+  margin-left: 2rem;
+}
+
+.modal-body-text {
+  font-size: 1.3rem;
+  font-family: "Red Rose";
+  font-weight: 600;
+}
+
+.wallet-name {
+  font-size: 1.2rem;
+  font-weight: 600;
+  font-family: "Red Rose";
+}
+
+.wallet-icon {
+  height: 2.4rem;
+  width: 2.4rem;
+  color: #adb5bd;
+}
+
+.wallet-desc {
+  display: flex;
+  align-items: flex-end;
+  height: 4rem;
+  gap: 1rem;
+}
+
+.wallet-box {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid rgb(221, 206, 206);
+  background: #e9ecef;
+  border-radius: 9px;
+  align-items: center;
+  margin-bottom: 2rem;
+  padding: 0.8rem;
+}
