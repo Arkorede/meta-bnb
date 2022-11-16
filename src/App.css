@@ -156,7 +156,6 @@ html {
 
 .card {
   width: 28rem;
-  /* border-radius: 13px; */
 }
 
 .card-text {
@@ -165,4 +164,54 @@ html {
     "a b"
     "c d";
   row-gap: 0.6rem;
+}
+
+/* NFTs SECTION */
+.section-nft {
+  display: flex;
+  gap: 15rem;
+  background: linear-gradient(90deg, #a02279 11.45%, #a02279 11.45%);
+  padding: 2rem 4rem;
+}
+
+.nft-text-box {
+  flex: 40%;
+}
+
+.nft-img {
+  flex: 60%;
+  width: 100%;
+  margin-top: 9rem;
+  margin-bottom: 8rem;
+  overflow: hidden;
+}
+
+.nft-heading {
+  font-size: 5rem;
+  font-weight: 500;
+  margin-top: 12rem;
+  margin-bottom: 4rem;
+}
+
+.nft-description {
+  font-size: 2rem;
+  color: #fff;
+  line-height: 1.8;
+  margin-bottom: 8rem;
+}
+
+.nft-link:link,
+.nft:link:visited {
+  font-size: 1.8rem;
+  background-color: #fff;
+  border-radius: 12px;
+  text-decoration: none;
+  padding: 2rem 3rem;
+
+  transition: all 0.3s;
+}
+
+.nft-link:hover,
+.nft-link:active {
+  background: #e9ecef;
 }

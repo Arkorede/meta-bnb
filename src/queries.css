@@ -142,6 +142,25 @@
   .how-heading {
     font-size: 4rem;
   }
+
+  .section-nft {
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .nft-description {
+    font-size: 1.7rem;
+    margin-bottom: 5rem;
+  }
+
+  .nft-link:link,
+  .nft:link:visited {
+    padding: 1.5rem 2.5rem;
+  }
+
+  .nft-img {
+    margin-top: 6.5rem;
+  }
 }
 
 /***************************/
@@ -164,6 +183,10 @@
 
   .how-heading {
     font-size: 3rem;
+  }
+
+  .nft-heading {
+    font-size: 4rem;
   }
 }
 
@@ -203,5 +226,14 @@
 
   .card {
     width: 100%;
+  }
+
+  .nft-heading {
+    font-size: 3rem;
+    margin-top: 6rem;
+  }
+
+  .nft-description {
+    font-size: 1.6rem;
   }
 }

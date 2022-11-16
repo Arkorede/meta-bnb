@@ -14,11 +14,7 @@ function How() {
     <div className="section-how">
       <h1 className="how-heading">Inspiration for your next adventure</h1>
       <div className="cards">
-        <div
-          className="card p-3"
-          style={{ borderRadius: "13px" }}
-          // style={{ width: "28rem", borderRadius: "13px" }}
-        >
+        <div className="card p-3" style={{ borderRadius: "13px" }}>
           <img
             src={houseOne}
             className="card-img-top img-fluid"
@@ -39,11 +35,7 @@ function How() {
           </div>
         </div>
 
-        <div
-          className="card p-3"
-          style={{ borderRadius: "13px" }}
-          // style={{ width: "28rem", borderRadius: "13px" }}
-        >
+        <div className="card p-3" style={{ borderRadius: "13px" }}>
           <img
             src={houseTwo}
             className="card-img-top img-fluid"
@@ -64,11 +56,7 @@ function How() {
           </div>
         </div>
 
-        <div
-          className="card p-3"
-          style={{ borderRadius: "13px" }}
-          // style={{ width: "28rem", borderRadius: "13px" }}
-        >
+        <div className="card p-3" style={{ borderRadius: "13px" }}>
           <img
             src={houseThree}
             className="card-img-top img-fluid"
@@ -89,11 +77,7 @@ function How() {
           </div>
         </div>
 
-        <div
-          className="card p-3"
-          style={{ borderRadius: "13px" }}
-          // style={{ width: "28rem", borderRadius: "13px" }}
-        >
+        <div className="card p-3" style={{ borderRadius: "13px" }}>
           <img
             src={houseFour}
             className="card-img-top img-fluid"
@@ -114,11 +98,7 @@ function How() {
           </div>
         </div>
 
-        <div
-          className="card p-3"
-          style={{ borderRadius: "13px" }}
-          // style={{ width: "28rem", borderRadius: "13px" }}
-        >
+        <div className="card p-3" style={{ borderRadius: "13px" }}>
           <img
             src={houseFive}
             className="card-img-top img-fluid"
@@ -139,11 +119,7 @@ function How() {
           </div>
         </div>
 
-        <div
-          className="card p-3"
-          style={{ borderRadius: "13px" }}
-          // style={{ width: "28rem", borderRadius: "13px" }}
-        >
+        <div className="card p-3" style={{ borderRadius: "13px" }}>
           <img
             src={houseSix}
             className="card-img-top img-fluid"
@@ -164,11 +140,7 @@ function How() {
           </div>
         </div>
 
-        <div
-          className="card p-3"
-          style={{ borderRadius: "13px" }}
-          // style={{ width: "28rem", borderRadius: "13px" }}
-        >
+        <div className="card p-3" style={{ borderRadius: "13px" }}>
           <img
             src={houseSeven}
             className="card-img-top img-fluid"
@@ -189,11 +161,7 @@ function How() {
           </div>
         </div>
 
-        <div
-          className="card p-3"
-          style={{ borderRadius: "13px" }}
-          // style={{ width: "28rem", borderRadius: "13px" }}
-        >
+        <div className="card p-3" style={{ borderRadius: "13px" }}>
           <img
             src={houseEight}
             className="card-img-top img-fluid"
