@@ -161,6 +161,15 @@
   .nft-img {
     margin-top: 6.5rem;
   }
+
+  .logo {
+    height: 3.2rem;
+  }
+
+  .section-footer {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 5rem;
+  }
 }
 
 /***************************/
@@ -187,6 +196,24 @@
 
   .nft-heading {
     font-size: 4rem;
+  }
+
+  .logo-col {
+    grid-column: span 2;
+  }
+
+  .social-links {
+    margin: 1.5rem 0 2rem 0;
+  }
+
+  .logo {
+    height: 3rem;
+  }
+
+  .nav-col {
+    grid-row: 1;
+    grid-column: span 2;
+    margin-bottom: 4rem;
   }
 }
 
@@ -235,5 +262,26 @@
 
   .nft-description {
     font-size: 1.6rem;
+  }
+
+  .section-footer {
+    padding: 3rem;
+  }
+
+  .logo {
+    height: 2rem;
+  }
+
+  .footer-heading {
+    font-size: 1.5rem;
+  }
+
+  .footer-link:link,
+  .footer-link:visited {
+    font-size: 1.4rem;
+  }
+
+  .copyright {
+    font-size: 1.2rem;
   }
 }
