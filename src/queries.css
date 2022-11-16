@@ -170,6 +170,10 @@
     grid-template-columns: 1fr 1fr 1fr 1fr;
     column-gap: 5rem;
   }
+
+  .place-nav-list {
+    display: none;
+  }
 }
 
 /***************************/

@@ -44,6 +44,29 @@ html {
   margin-bottom: 0;
 }
 
+.place-nav-list {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  margin-top: 2rem;
+}
+
+.place-nav-link:link,
+.place-nav-link:visited {
+  display: inline-block;
+  text-decoration: none;
+  color: #333;
+  font-size: 1.8rem;
+  font-weight: 400;
+
+  transition: all 0.3s;
+}
+
+.main-nav-link:hover,
+.main-nav-link:active {
+  color: #868e96;
+}
+
 .main-nav-link:link,
 .main-nav-link:visited {
   display: inline-block;

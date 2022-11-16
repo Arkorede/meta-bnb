@@ -1,6 +1,7 @@
+import React from "react";
 import firstLogo from "./firstLogo.png";
 import secondLogo from "./secondLogo.png";
-import React from "react";
+import { Link } from "react-router-dom";
 
 function Header() {
   const handleClick = (event) => {
@@ -22,9 +23,9 @@ function Header() {
             </a>
           </li>
           <li>
-            <a class="main-nav-link" href="https://github.com/Arkorede">
+            <Link to="/place" class="main-nav-link">
               Place to stay
-            </a>
+            </Link>
           </li>
           <li>
             <a class="main-nav-link" href="https://github.com/Arkorede">
