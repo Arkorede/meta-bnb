@@ -29,10 +29,10 @@ function Header() {
 
   return (
     <div className="header sticky-top" onClick={handleClick}>
-      <div className="img-wrapper">
+      <a className="img-wrapper" href="/#">
         <img src={firstLogo} alt="A small house" className="first-logo" />
         <img src={secondLogo} alt="Metabnb" className="second-logo" />
-      </div>
+      </a>
 
       <nav class="main-nav">
         <ul class="main-nav-list">

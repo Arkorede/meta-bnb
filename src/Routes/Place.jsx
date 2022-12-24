@@ -24,7 +24,7 @@ function Place() {
         <ul className="place-nav-list">
           <li>
             <a
-              href="https://github.com/Arkorede"
+              href="/#"
               className="place-nav-link text-black text-decoration-none"
             >
               Restaurant
@@ -32,7 +32,7 @@ function Place() {
           </li>
           <li>
             <a
-              href="https://github.com/Arkorede"
+              href="/#"
               className="place-nav-link text-black text-decoration-none"
             >
               Cottage
@@ -40,7 +40,7 @@ function Place() {
           </li>
           <li>
             <a
-              href="https://github.com/Arkorede"
+              href="/#"
               className="place-nav-link text-black text-decoration-none"
             >
               Castle
@@ -48,7 +48,7 @@ function Place() {
           </li>
           <li>
             <a
-              href="https://github.com/Arkorede"
+              href="/#"
               className="place-nav-link text-black text-decoration-none"
             >
               fantastic city
@@ -56,7 +56,7 @@ function Place() {
           </li>
           <li>
             <a
-              href="https://github.com/Arkorede"
+              href="/#"
               className="place-nav-link text-black text-decoration-none"
             >
               beach
@@ -64,7 +64,7 @@ function Place() {
           </li>
           <li>
             <a
-              href="https://github.com/Arkorede"
+              href="/#"
               className="place-nav-link text-black text-decoration-none"
             >
               carbins
@@ -72,7 +72,7 @@ function Place() {
           </li>
           <li>
             <a
-              href="https://github.com/Arkorede"
+              href="/#"
               className="place-nav-link text-black text-decoration-none"
             >
               Farm
