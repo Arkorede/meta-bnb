@@ -251,11 +251,7 @@ function Content() {
               amazing gift cards which are traded as NFTs. These NFTs gives our
               customer access to loads of our exclusive services.
             </p>
-            <a
-              href="https://github.com/Arkorede"
-              className="nft-link"
-              style={{ color: "#a02279" }}
-            >
+            <a href="/#" className="nft-link" style={{ color: "#a02279" }}>
               Learn more
             </a>
           </div>

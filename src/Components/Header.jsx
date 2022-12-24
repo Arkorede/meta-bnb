@@ -15,7 +15,7 @@ const customStyles = {
     marginRight: "-50%",
     transform: "translate(-50%, -50%)",
     backgroundColor: "white",
-    width: 400,
+    width: 350,
     padding: 0,
   },
 };
@@ -37,7 +37,7 @@ function Header() {
       <nav class="main-nav">
         <ul class="main-nav-list">
           <li>
-            <a class="main-nav-link" href="https://github.com/Arkorede">
+            <a class="main-nav-link" href="/#">
               Home
             </a>
           </li>
@@ -47,12 +47,12 @@ function Header() {
             </Link>
           </li>
           <li>
-            <a class="main-nav-link" href="https://github.com/Arkorede">
+            <a class="main-nav-link" href="/#">
               NFTs
             </a>
           </li>
           <li>
-            <a class="main-nav-link" href="https://github.com/Arkorede">
+            <a class="main-nav-link" href="/#">
               Community
             </a>
           </li>

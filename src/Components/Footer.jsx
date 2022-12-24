@@ -10,7 +10,7 @@ function Footer() {
       <footer className="footer">
         <div className="section-footer">
           <div className="logo-col">
-            <a href="https://github.com/Arkorede" className="footer-logo">
+            <a href="/#" className="footer-logo">
               <img src={metabnbLogo} alt="Metabnb logo" className="logo" />
             </a>
 
@@ -61,22 +61,22 @@ function Footer() {
             <p className="footer-heading">Community</p>
             <ul className="footer-nav">
               <li>
-                <a href="https://github.com/Arkorede" className="footer-link">
+                <a href="/#" className="footer-link">
                   NFT
                 </a>
               </li>
               <li>
-                <a href="https://github.com/Arkorede" className="footer-link">
+                <a href="/#" className="footer-link">
                   Tokens
                 </a>
               </li>
               <li>
-                <a href="https://github.com/Arkorede" className="footer-link">
+                <a href="/#" className="footer-link">
                   Landlords
                 </a>
               </li>
               <li>
-                <a href="https://github.com/Arkorede" className="footer-link">
+                <a href="/#" className="footer-link">
                   Discord
                 </a>
               </li>
@@ -87,22 +87,22 @@ function Footer() {
             <p className="footer-heading">Places</p>
             <ul className="footer-nav">
               <li>
-                <a href="https://github.com/Arkorede" className="footer-link">
+                <a href="/#" className="footer-link">
                   Castle
                 </a>
               </li>
               <li>
-                <a href="https://github.com/Arkorede" className="footer-link">
+                <a href="/#" className="footer-link">
                   Farms
                 </a>
               </li>
               <li>
-                <a href="https://github.com/Arkorede" className="footer-link">
+                <a href="/#" className="footer-link">
                   Beach
                 </a>
               </li>
               <li>
-                <a href="https://github.com/Arkorede" className="footer-link">
+                <a href="/#" className="footer-link">
                   Learn more
                 </a>
               </li>
@@ -113,22 +113,22 @@ function Footer() {
             <p className="footer-heading">About us</p>
             <ul className="footer-nav">
               <li>
-                <a href="https://github.com/Arkorede" className="footer-link">
+                <a href="/#" className="footer-link">
                   Road-map
                 </a>
               </li>
               <li>
-                <a href="https://github.com/Arkorede" className="footer-link">
+                <a href="/#" className="footer-link">
                   Creators
                 </a>
               </li>
               <li>
-                <a href="https://github.com/Arkorede" className="footer-link">
+                <a href="/#" className="footer-link">
                   Career
                 </a>
               </li>
               <li>
-                <a href="https://github.com/Arkorede" className="footer-link">
+                <a href="/#" className="footer-link">
                   Contact us
                 </a>
               </li>
