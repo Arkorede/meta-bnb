@@ -1,1 +1,1 @@
-Sure is live at: https://houses-metaverse.netlify.app/
+Site is live at: https://houses-metaverse.netlify.app/
